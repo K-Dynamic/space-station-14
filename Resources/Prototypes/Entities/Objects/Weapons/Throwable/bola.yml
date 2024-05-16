@@ -48,3 +48,26 @@
     canThrowTrigger: true
     canMoveBreakout: true
 
+- type: entity
+  name: Energy Bola
+  parent: BaseItem
+  id: EnergyBola
+  description: A specialized hard-light bola designed to ensnare fleeing criminals and aid in arrests.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: Objects/Weapons/Throwable/bola.rsi
+    state: icon
+  - type: EmitSoundOnThrow
+    sound: /Audio/Weapons/bolathrow.ogg
+  - type: EmitSoundOnLand
+    sound: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+  - type: Ensnaring
+    freeTime: 2.0
+    breakoutTime: 3.5
+    walkSpeed: 0.5
+    sprintSpeed: 0.5
+    staminaDamage: 55
+    canThrowTrigger: true
+    canMoveBreakout: true
