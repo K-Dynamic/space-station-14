@@ -76,7 +76,7 @@
       - Energy
 
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
+  parent: [ClothingOuterBaseLarge, ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWeb
   name: ballistic web vest
   description: A synthetic armor vest with ballistic plates and internal web storage.
