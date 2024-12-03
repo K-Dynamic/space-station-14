@@ -116,15 +116,19 @@
     damageCoefficient: 0.9
 
 - type: entity
-  parent: [ClothingOuterArmorBasic, BaseRestrictedContraband]
+  parent: [ClothingOuterArmorBasic, ClothingOuterStorageBase]
   id: ClothingOuterVestDetective
   name: detective's vest
-  description: A hard-boiled private investigator's armored vest.
+  description: A hard-boiled private investigator's armored vest. Comes with pockets for evidence markers and cigs.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+    - id: FlippoLighter
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseCommandContraband]
