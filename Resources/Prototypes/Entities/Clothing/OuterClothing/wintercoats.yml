@@ -663,32 +663,6 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSci
 
-##########################################################
-- type: entity
-  parent: [ClothingOuterArmorBasic, ClothingOuterWinterCoatToggleable]
-  id: ClothingOuterWinterSec
-  name: security armored winter coat
-  description: A sturdy, utilitarian winter coat designed to protect an officer from any brig-bound threats and hypothermic events.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
-    layers:
-    - state: SEC-icon
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: SEC-inhand-left
-      right:
-      - state: SEC-inhand-right
-  - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
-    clothingVisuals:
-      outerClothing:
-      - state: SEC-equipped-OUTERCLOTHING
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodWinterSec
-##########################################################
-
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseRestrictedContraband]
   id: ClothingOuterWinterSec
