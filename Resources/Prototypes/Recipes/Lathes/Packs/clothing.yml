@@ -135,7 +135,7 @@
 - type: latheRecipePack
   id: WinterCoats
   recipes:
-  - ClothingOuterWinterCap
+  - ClothingOuterWinterCapUnarmored
   - ClothingOuterWinterCE
   - ClothingOuterWinterCMO
   - ClothingOuterWinterHoP
@@ -162,7 +162,7 @@
   - ClothingOuterWinterViro
   - ClothingOuterWinterSci
   - ClothingOuterWinterRobo
-  - ClothingOuterWinterSec
+  - ClothingOuterWinterSecUnarmored
 
 - type: latheRecipePack
   id: Ties
@@ -206,6 +206,7 @@
   - ClothingUniformJumpskirtCentcomFormalDress
   - ClothingUniformJumpsuitCentcomOfficer
   - ClothingUniformJumpsuitCentcomOfficial
+  - ClothingOuterWinterCentcomUnarmored
 
 - type: latheRecipePack
   id: ClothingSyndie
@@ -222,7 +223,6 @@
   - ClothingUniformJumpsuitPyjamaSyndicatePink
   - ClothingHeadPyjamaSyndicateRed
   - ClothingUniformJumpsuitPyjamaSyndicateRed
-  - ClothingOuterWinterCentcom
   - ClothingOuterWinterSyndie
   - ClothingOuterWinterSyndieCap
   - BedsheetSyndie
